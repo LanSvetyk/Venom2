@@ -43,9 +43,52 @@ body {
     color: rgba(255, 255, 255, 0.8);
 }
 .film-description {
+    max-width: 423px;
+    margin-top: 40px;
     font-size: 16px;
     line-height: 140%;
     color: rgba(255, 255, 255, 0.8);
-    max-width: 423px;
-    margin-top: 40px;
+
+}
+
+.button-group {
+    display: flex;
+    margin-top: 70px;
+}
+.button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    color:#FFFFFF;
+}
+.button-icon,
+.button-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+.button-text {
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+.button-primary {
+    background: #FFFFFF;
+    color: #8D0019;
+}
+.button-link {
+    color:#FFFFFF;
+}
+
+.venom {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.blood {
+    background: url(../image/blood.png) no-repeat top right, url(../image/background.jpg) no-repeat center center/100%;
+   
 }
