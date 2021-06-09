@@ -1,5 +1,5 @@
 body {
-    background-color: #000;
+  
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -90,5 +90,6 @@ body {
 
 .blood {
     background: url(../image/blood.png) no-repeat top right, url(../image/background.jpg) no-repeat center center/100%;
+    background-color: #000;
    
 }
