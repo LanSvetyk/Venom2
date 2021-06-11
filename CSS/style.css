@@ -105,9 +105,11 @@ h1, h2, h3, ul, li {
 .blood {
     background: url(../image/blood.png) no-repeat top right, rgba(30, 29, 33, 1) url(../image/background.jpg) no-repeat center center /100%;
 }
+
 .primary-bg {
-    background:  rgba(30, 29, 33, 1) url(../image/background.jpg) no-repeat center center /100%;
+    background: rgba(30, 29, 33, 1) url(../image/background.jpg) no-repeat center center /100%;
 }
+
 .content {
     display: flex;
 }
@@ -156,7 +158,9 @@ h1, h2, h3, ul, li {
 }
 
 .list-item {
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .content .trailer {
@@ -179,7 +183,9 @@ h1, h2, h3, ul, li {
     justify-content: center;
     align-items: center;
 }
-
+.trailer .play:hover {
+    background: #ff0000;
+}
 .poster-wrapper {
     display: flex;
     justify-self: start;
